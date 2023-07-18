@@ -65,6 +65,7 @@ a:link{
 .footer{
     color:#F9FAF8;
     justify-content: center;
+    border-top:1px solid white;
 }
 
 h1{
