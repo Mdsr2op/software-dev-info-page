@@ -19,9 +19,10 @@
     height: 100vh;
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .header,.footer{
-    padding:16px 200px; 
+    padding:16px 75px; 
     background-color: #1F2937;
     display:flex;
     justify-content:space-between;
@@ -34,7 +35,7 @@
     font-size:24px;
 }
 
-a,.text p{      
+a,.hero p{      
     color:#E5E7EB;
     font-size:18px;
 }
@@ -44,9 +45,11 @@ a,.text p{
     display:flex;
 }
 
+
 ul{
     display:flex;
-    gap:16px;
+    list-style-type: none;
+    gap:20px;
 }
 
 a:link{
@@ -59,7 +62,6 @@ a:link{
 }
 
 h1{
-    
     color:#F9FAF8;
     font-size: 48px;
 }
@@ -69,11 +71,13 @@ h1{
     display:flex;
     height: 300px;
     flex:1 1 auto;
-    justify-content: space-between;
+    justify-content: center;
+    align-content:center;
     padding:100px 200px; 
     gap:16px;
-
-    
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
 }
 
 .placeholder{
@@ -104,6 +108,7 @@ h1{
     font-weight:bold;
     padding:6px 18px;
     border-radius:0.5rem;
+    border-style:solid;
     border-color:#3882F6;
 }
 
